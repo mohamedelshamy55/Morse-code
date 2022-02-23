@@ -1,6 +1,3 @@
-print 'Type some morse code here: '
-morse_str = gets.chomp
-
 def morse_decode_char(char)
   morse_chars = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
@@ -30,8 +27,6 @@ def morse_decode_sentence(morse_msg)
   end
   msg.join(' ')
 end
-
-puts "Your decoded message is: #{morse_decode_sentence(morse_str)}"
 
 puts morse_decode_char('.-')
 puts morse_decode_word('-- -.--')

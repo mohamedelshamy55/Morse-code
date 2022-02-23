@@ -19,6 +19,7 @@ Clone the project by using terminal:
 ```
 git clone https://github.com/mohamedelshamy55/Morse-code.git
 
+cd Morse-code
 
 ruby morse.rb
 ```
