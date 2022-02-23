@@ -17,11 +17,10 @@ To get a local copy up and running follow these simple example steps.
 Clone the project by using terminal:
 
 ```
-git clone 
+git clone https://github.com/mohamedelshamy55/Morse-code.git
 
 
 ruby morse.rb
-ruby decode.rb
 ```
 
 
